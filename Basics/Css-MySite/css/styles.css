@@ -1,3 +1,10 @@
 body{
-background-color: blue;
+margin : 0;
+}
+
+h1{
+margin-top: 0;
+}
+.Heading{
+background-color: #233e8b;
 }
