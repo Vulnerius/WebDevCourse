@@ -5,6 +5,18 @@ margin : 0;
 h1{
 margin-top: 0;
 }
-.Heading{
+div{
+width : 200px;
+height: 200px;
+}
+.top-container{
+margin: 10px;
+padding: 5%;
 background-color: #233e8b;
+}
+.middle-container{
+background-color: red;
+}
+.bottom-container{
+background-color: blue;
 }
