@@ -26,14 +26,10 @@ background-color: #233e8b;
 position:relative;
 }
 .middle-container{
-width : 200px;
-height: 200px;
-background-color: red;
+background-color: #1eae98;
 }
 .bottom-container{
-width : 200px;
-height: 200px;
-background-color: blue;
+background-color:#a9f1df;
 }
 .pro{
 text-decoration: underline;
@@ -50,4 +46,11 @@ bottom:300px;
 position: absolute;
 right:300px;
 top:50px;
+}
+.myPic{
+width: 300px;
+height: auto;
+border-radius:25px;
+position: relative;
+top:15px;
 }
