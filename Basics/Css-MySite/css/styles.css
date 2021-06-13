@@ -1,3 +1,4 @@
+/*1rem = 16px */
 body{
 margin : 0;
 text-align: center;
@@ -5,11 +6,15 @@ font-family: 'Merriweather', serif;
 color:#ffffc7;
 }
 h1{
-margin-top: 50px;
+font-size: 5.7rem;
 font-family: 'Sacramento', cursive;
+line-height: 25px;
+margin-top: 50px auto 0 auto;
 }
 h2 {
 font-family: 'Montserrat', sans-serif;
+font-size: 2.2rem;
+font-weight: normal;
 }
 h3{
 font-family: 'Montserrat', sans-serif;
@@ -18,8 +23,9 @@ p{
 font-family: 'Montserrat', sans-serif;
 font-size: 18px;
 }
+
 .top-container{
-margin: 10px;
+margin-bottom:0;
 padding-top:100px;
 padding: 5%;
 background-color: #233e8b;
@@ -27,12 +33,10 @@ position:relative;
 }
 .middle-container{
 background-color: #1eae98;
+margin-top:0;
 }
 .bottom-container{
 background-color:#a9f1df;
-}
-.pro{
-text-decoration: underline;
 }
 .imagesTop{
 display: inline;
@@ -48,9 +52,29 @@ right:300px;
 top:50px;
 }
 .myPic{
-width: 300px;
-height: auto;
+width: auto;
+height: 10rem;
 border-radius:25px;
-position: relative;
-top:15px;
+margin-top:2rem;
+}
+.skill-row{
+width: 50%;
+height: auto;
+line-height:200%;
+margin:75px auto 75px auto;
+text-align: left;
+}
+.java-img{
+width: 25%;
+height: auto;
+float: left;
+}
+.blender-img{
+border-radius:25px;
+width: 25%;
+height: auto;
+float: right;
+}
+.reference{
+font-size:10px;
 }
